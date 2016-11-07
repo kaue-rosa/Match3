@@ -26,9 +26,12 @@ bool MainScene::init()
     //Vec2 origin = Director::getInstance()->getVisibleOrigin();
     
     //gridLogic = GridLogic(4,4);
-    GridLogic gl = GridLogic(4,4);
-    gridLogic = &gl;
-    gridLogic->PrintGrid();
+    this->addChild(GridInteractive::createScene());
     
+    /*
+    Sprite *sprite = Sprite::create("White_square.png");
+    sprite->setPosition(Point((visibleSize.width / 2) + origin.x,(visibleSize.height / 2) + origin.y));
+    this-> addChild(sprite);
+    */
     return true;
 }

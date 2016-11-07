@@ -60,6 +60,8 @@
 		521A8EA919F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
+		581532221DD043220025CF52 /* White_square.png in Resources */ = {isa = PBXBuildFile; fileRef = 581532211DD043220025CF52 /* White_square.png */; };
+		5836BEE31DD03B7400AA23FD /* GridInteractive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5836BEE11DD03B7400AA23FD /* GridInteractive.cpp */; };
 		58E369181DD015F300E2A2A2 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58E369161DD015F300E2A2A2 /* MainScene.cpp */; };
 		58E3691E1DD01CBF00E2A2A2 /* GridLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58E3691C1DD01CBF00E2A2A2 /* GridLogic.cpp */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
@@ -164,6 +166,9 @@
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		581532211DD043220025CF52 /* White_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = White_square.png; sourceTree = "<group>"; };
+		5836BEE11DD03B7400AA23FD /* GridInteractive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GridInteractive.cpp; sourceTree = "<group>"; };
+		5836BEE21DD03B7400AA23FD /* GridInteractive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridInteractive.h; sourceTree = "<group>"; };
 		58E369161DD015F300E2A2A2 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
 		58E369171DD015F300E2A2A2 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
 		58E3691C1DD01CBF00E2A2A2 /* GridLogic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GridLogic.cpp; sourceTree = "<group>"; };
@@ -302,6 +307,7 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				581532211DD043220025CF52 /* White_square.png */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
@@ -323,6 +329,8 @@
 				58E369171DD015F300E2A2A2 /* MainScene.h */,
 				58E3691C1DD01CBF00E2A2A2 /* GridLogic.cpp */,
 				58E3691D1DD01CBF00E2A2A2 /* GridLogic.h */,
+				5836BEE11DD03B7400AA23FD /* GridInteractive.cpp */,
+				5836BEE21DD03B7400AA23FD /* GridInteractive.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -497,6 +505,7 @@
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
+				581532221DD043220025CF52 /* White_square.png in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
@@ -523,6 +532,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5836BEE31DD03B7400AA23FD /* GridInteractive.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,

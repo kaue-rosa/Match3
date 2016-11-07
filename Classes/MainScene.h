@@ -4,9 +4,7 @@
 #include <stdio.h>
 
 #include "cocos2d.h"
-#include "GridLogic.h"
-
-#endif /* MainScene_hpp */
+#include "GridInteractive.h"
 
 class MainScene : public cocos2d::Layer
 {
@@ -17,5 +15,7 @@ public:
     CREATE_FUNC(MainScene);
 
 private:
-    GridLogic *gridLogic;
+    GridInteractive *gridInteractive;
 };
+
+#endif /* MainScene_h */
