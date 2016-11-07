@@ -15,6 +15,7 @@ Scene* MainScene::createScene()
 
 bool MainScene::init()
 {
+    srand ((int)time(NULL));
     
     if ( !Layer::init() )
     {
@@ -22,9 +23,12 @@ bool MainScene::init()
     }
     
     //auto visibleSize = Director::getInstance()->getVisibleSize();
-    Vec2 origin = Director::getInstance()->getVisibleOrigin();
+    //Vec2 origin = Director::getInstance()->getVisibleOrigin();
     
-    
+    //gridLogic = GridLogic(4,4);
+    GridLogic gl = GridLogic(4,4);
+    gridLogic = &gl;
+    gridLogic->PrintGrid();
     
     return true;
 }
